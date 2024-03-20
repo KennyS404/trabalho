@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Aluno {
     private final String nome;
     private final int idade;
@@ -16,7 +17,7 @@ class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno: " + nome + ", Situação: " + getSituacao();
+        return "Aluno: " + nome + ", Idade: " + idade + ", Situação: " + getSituacao();
     }
 }
 
