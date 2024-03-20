@@ -1,8 +1,8 @@
 import java.util.Scanner;
 class Aluno {
-    private String nome;
-    private int idade;
-    private double nota;
+    private final String nome;
+    private final int idade;
+    private final double nota;
 
     public Aluno(String nome, int idade, double nota) {
         this.nome = nome;
