@@ -22,8 +22,7 @@ public class Main {
             switch (opcao) {
                 case 1:
                     System.out.print("Digite um número: ");
-                    int numero = scanner.nextInt();
-                    VerificarParImpar.verificar(numero);
+                    VerificarParImpar.verificar();
                     break;
                 case 2:
                     ExibirNumeros.exibir();
